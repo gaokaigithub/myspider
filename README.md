@@ -5,4 +5,6 @@ jike.py
 domain.py
 使用selenium获取查询域名是否已被注册，
 test2.py
-使用ghost获取查询域名是否已被注册
+使用ghost获取查询域名是否已被注册，
+test.py
+使用qtwebkit获取查询域名是否已被注册，相比还是ghost.py比较简洁。
