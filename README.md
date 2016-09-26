@@ -1,11 +1,14 @@
 # myspider
-学习爬虫
-jike.py
+学习爬虫<br>
+jike.py<br>
 抓取极客学院的课程信息，
-domain.py
+domain.py<br>
 使用selenium获取查询域名是否已被注册，
-test2.py
+test2.py<br>
 使用ghost获取查询域名是否已被注册，
-test.py
+test.py<br>
 使用qtwebkit获取查询域名是否已被注册，相比还是ghost.py比较简洁。
-lg.py 用selenium登陆万网，才发现登陆框在iframe中。打算写个自动注册域名的程序，使用selenium登陆后再点击的次数比较多，看看用cookies行不行。
+lg.py <br>
+用selenium登陆万网，才发现登陆框在iframe中。
+zhihu<br>
+使用scrapy获取知乎用户的头像，保存在了本地。
