@@ -24,9 +24,9 @@ def save_ip():
     iplist = get_ip()
     conn = pymysql.connect(host = '127.0.0.1',port = 3306,user = 'root',password = 'xxxxx',db = 'ip')
     cur = conn.cursor()
-    cur.execute('create table if not exists ip(ip varchar(255))')
+    cur.execute('create table if not exists ip(id int auto_increment,ip varchar(255),primary key(id))')
     for ip in iplist:
-        cur.execute('insert into ip values(%s)',ip)
+        cur.execute('insert into ip(ip) values(%s)',ip)
         conn.commit()
 if __name__ == '__main__':
     save_ip()
