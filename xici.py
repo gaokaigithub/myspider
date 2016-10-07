@@ -22,7 +22,7 @@ def get_ip():
 
 def save_ip():
     iplist = get_ip()
-    conn = pymysql.connect(host = '127.0.0.1',port = 3306,user = 'root',password = 'gaokai1028',db = 'ip')
+    conn = pymysql.connect(host = '127.0.0.1',port = 3306,user = 'root',password = 'xxxxx',db = 'ip')
     cur = conn.cursor()
     cur.execute('create table if not exists ip(ip varchar(255))')
     for ip in iplist:
